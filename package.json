@@ -1,0 +1,37 @@
+{
+  "name": "axios-demo",
+  "version": "1.0.0",
+  "description": "experimental excercise with Axios, Parcel and Bootstrap ",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --out-dir build/ --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silvestrevivo/axios-demo.git"
+  },
+  "keywords": [
+    "axios",
+    "parcel",
+    "bootstrap",
+    "demo",
+    "excercise"
+  ],
+  "author": "@silvestrevivo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silvestrevivo/axios-demo/issues"
+  },
+  "homepage": "https://github.com/silvestrevivo/axios-demo#readme",
+  "dependencies": {
+    "autoprefixer": "^8.2.0",
+    "axios": "^0.18.0",
+    "babel-preset-env": "^1.6.1",
+    "node-sass": "^4.8.3",
+    "postcss-modules": "^1.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0"
+  }
+}
