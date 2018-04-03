@@ -24,47 +24,53 @@
 <body>
 
     <div class="container">
-        <h1>Axios Demo <small class="text-muted">by @silvestrevivo</small></h1>
-        <div class="jumbotron">
-            <h1>Wellcome to Axios</h1>
-            <h4>This application uses Axios. Axios is a Promised-based HTTP client for JavaScript</h4>
-        </div>
-        <!-- first panel -->
-        <div class="panel panel-primary">
-            <div class="panel-heading">GET Request</div>
-            <div class="panel-body">
-                <button class="btn btn-primary" id="buttonGetTodo1">Get Todo's</button>
-                <button class="btn btn-warning">Clear</button>
-                <div class="panel-body" id="getResult1"></div>
-            </div>
-        </div>
-        <!-- second panel -->
-        <div class="panel panel-primary">
-            <div class="panel-heading">GET Request with Parameters</div>
-            <div class="panel-body">
-                <input type="text" class="form-control" id="todoId" placeholder="Todo ID...."><br>
-                <button class="btn btn-primary" id="buttonGetTodo2">Get Todo's</button>
-                <button class="btn btn-warning">Clear</button>
-                <div class="panel-body" id="getResult2"></div>
-            </div>
-        </div>
-        <!-- third panel -->
-        <div class="panel panel-primary">
-            <div class="panel-heading">POST Request</div>
-            <div class="panel-body">
-                <form id="todoInputForm">
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="todoTitle" placeholder="Todo Title....">
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
+                <h1>Axios Demo <small class="text-muted">by @silvestrevivo</small></h1>
+                <div class="jumbotron">
+                    <h1>Wellcome to Axios</h1>
+                    <h4>This application uses Axios. Axios is a Promised-based HTTP client for JavaScript</h4>
+                </div>
+                <!-- first panel -->
+                <div class="panel panel-primary">
+                    <div class="panel-heading">GET Request</div>
+                    <div class="panel-body">
+                        <button class="btn btn-primary" id="buttonGetTodo1">Get Todo's</button>
+                        <button class="btn btn-warning">Clear</button>
+                        <div class="panel-body" id="getResult1"></div>
                     </div>
-                    <button type="submit" id="submitPost" class="btn btn-primary">Send</button>
-                </form><br>
-                <button class="btn btn-warning">Clear</button>
+                </div>
+                <!-- second panel -->
+                <div class="panel panel-primary">
+                    <div class="panel-heading">GET Request with Parameters</div>
+                    <div class="panel-body">
+                        <input type="text" class="form-control" id="todoId" placeholder="Todo ID...."><br>
+                        <button class="btn btn-primary" id="buttonGetTodo2">Get Todo's</button>
+                        <button class="btn btn-warning">Clear</button>
+                        <div class="panel-body" id="getResult2"></div>
+                    </div>
+                </div>
+                <!-- third panel -->
+                <div class="panel panel-primary">
+                    <div class="panel-heading">POST Request</div>
+                    <div class="panel-body">
+                        <form id="todoInputForm">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="todoTitle" placeholder="Todo Title....">
+                            </div>
+                            <button type="submit" id="submitPost" class="btn btn-primary">Send</button>
+                        </form><br>
+                        <button class="btn btn-warning">Clear</button>
+                    </div>
+                    <div class="panel-body" id="postResult"></div>
+                </div>
             </div>
-            <div class="panel-body" id="postResult"></div>
         </div>
     </div>
 
-
+    <footer>
+        <small class="center-block text-center">Developed by <a href="https://nl.linkedin.com/in/silvestre-vivo-1a6843bb" target="_blank">@silvestrevivo</a></small>
+    </footer>
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
